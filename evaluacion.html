@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evaluación - ReintegraIA</title>
+    <link rel="stylesheet" href="he_cab_evaluacion.css" />
+  </head>
+
+  <body>
+    <nav class="top-header">
+      <a href="index.html" class="logo">
+        <img src="imagenes/logo_reintegraia.jpg" alt="Logo de ReintegraIA" />
+      </a>
+
+      <ul class="menu-horizontal">
+        <li>
+          <a href="index.html">Inicio</a>
+          <ul class="menu-vertical">
+            <li><a href="index.html">Panel principal</a></li>
+            <li><a href="#">Calendario de sesiones</a></li>
+            <li><a href="#">Alertas recientes</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Internos</a>
+          <ul class="menu-vertical">
+            <li><a href="#">Lista de internos</a></li>
+            <li><a href="#">Registrar interno</a></li>
+            <li><a href="#">Perfil del interno</a></li>
+            <li><a href="#">Historial del interno</a></li>
+          </ul>
+        </li>
+        <li class="opcion-activa">
+          <a href="evaluacion.html">Evaluación</a>
+          <ul class="menu-vertical">
+            <li><a href="evaluacion.html">Evaluación psicológica</a></li>
+            <li><a href="evaluacion.html">Evaluación social</a></li>
+            <li><a href="evaluacion.html">Diagnóstico inicial</a></li>
+            <li><a href="evaluacion.html">Plan de intervención</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="seguimiento.html">Seguimiento</a>
+          <ul class="menu-vertical">
+            <li><a href="seguimiento.html">Sesiones programadas</a></li>
+            <li><a href="#">Registrar avance</a></li>
+            <li><a href="#">Observaciones</a></li>
+            <li><a href="#">Estado del tratamiento</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Reportes</a>
+          <ul class="menu-vertical">
+            <li><a href="#">Reporte individual</a></li>
+            <li><a href="#">Reporte por especialista</a></li>
+            <li><a href="#">Reporte mensual</a></li>
+            <li><a href="#">Exportar reporte</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="configuracion.html">Configuración</a>
+          <ul class="menu-vertical menu-configuracion">
+            <li><a href="configuracion.html">Mi perfil</a></li>
+            <li><a href="configuracion.html">Especialistas</a></li>
+            <li><a href="configuracion.html">Roles y permisos</a></li>
+            <li><a href="#">Cerrar sesión</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="div-busqueda">
+        <input type="text" placeholder="Buscar" />
+        <button type="button">Psi.</button>
+      </div>
+    </nav>
+
+    <section class="section-evaluacion">
+      <div class="div-formulario-evaluacion">
+        <h2>Evaluación integral</h2>
+
+        <form>
+          <div class="fila-campos">
+            <div class="campo">
+              <label for="area">Área</label>
+              <input type="text" id="area" placeholder="Completar*" />
+            </div>
+            <div class="campo">
+              <label for="especialista">Especialista</label>
+              <input type="text" id="especialista" placeholder="Completar*" />
+            </div>
+          </div>
+
+          <div class="fila-campos">
+            <div class="campo">
+              <label for="fecha">Fecha</label>
+              <input type="text" id="fecha" placeholder="Completar*" />
+            </div>
+            <div class="campo">
+              <label for="tipo">Tipo</label>
+              <input type="text" id="tipo" placeholder="Completar*" />
+            </div>
+          </div>
+
+          <div class="fila-campos">
+            <div class="campo">
+              <label for="indicadores">Indicadores</label>
+              <input type="text" id="indicadores" placeholder="Completar*" />
+            </div>
+            <div class="campo">
+              <label for="riesgo">Nivel de riesgo</label>
+              <input type="text" id="riesgo" placeholder="Completar*" />
+            </div>
+          </div>
+
+          <textarea placeholder="Observaciones clínicas y sociales*"></textarea>
+          <div class="resultado-riesgo">Riesgo: (Faltan datos)</div>
+        </form>
+      </div>
+
+      <div class="div-criterios">
+        <h2>Criterios de evaluación</h2>
+        <p>Psicológico</p>
+        <p>Social</p>
+        <p>Conductual</p>
+        <p>Educativo</p>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background-color: #f4f8f6;
+  color: #17201d;
+  font-family: Arial, sans-serif;
+}
+
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  width: 100%;
+  height: 85px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid #d6e0dc;
+}
+
+.logo { margin-left: 20px; }
+.logo img { display: block; width: 135px; height: 78px; object-fit: contain; }
+.menu-horizontal { display: flex; padding: 0; list-style: none; }
+.menu-horizontal li { position: relative; }
+
+.menu-horizontal li a {
+  display: block;
+  padding: 15px 14px;
+  color: #35413d;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.menu-horizontal li a:hover,
+.opcion-activa > a { color: #075e44; background-color: #ccecdf; border-radius: 8px; }
+.opcion-activa > a { border-bottom: 3px solid #087553; }
+
+.menu-vertical {
+  position: absolute;
+  display: none;
+  width: 210px;
+  padding: 5px 0;
+  background-color: white;
+  border: 1px solid #d6e0dc;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.menu-horizontal li:hover .menu-vertical { display: block; }
+.menu-vertical li a { padding: 10px 14px; font-size: 12px; }
+.menu-vertical li a:hover { background-color: #edf7f3; border-radius: 0; }
+.menu-configuracion { right: 0; }
+
+.div-busqueda { display: flex; align-items: center; gap: 12px; margin-right: 28px; }
+.div-busqueda input,
+.div-busqueda button { padding: 9px; background-color: white; border: 1px solid #d6e0dc; border-radius: 8px; }
+.div-busqueda input { width: 75px; }
+.div-busqueda button { padding: 10px 15px; color: #075e44; border-radius: 20px; font-weight: bold; }
+
+/* CONTENIDO DE EVALUACION */
+.section-evaluacion {
+  display: flex;
+  margin: 118px 36px 35px;
+  gap: 32px;
+}
+
+.div-formulario-evaluacion,
+.div-criterios {
+  background-color: white;
+  border: 1px solid #d6e0dc;
+  border-radius: 11px;
+  padding: 25px;
+}
+
+.div-formulario-evaluacion { width: 62%; }
+.div-criterios { width: 38%; }
+.div-formulario-evaluacion h2,
+.div-criterios h2 { margin-top: 0; }
+
+.fila-campos {
+  display: flex;
+  gap: 22px;
+  margin-top: 16px;
+}
+
+.campo { width: 50%; }
+.campo label { display: block; margin-bottom: 6px; font-size: 12px; font-weight: bold; }
+
+.campo input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #d6e0dc;
+  border-radius: 8px;
+}
+
+.div-formulario-evaluacion textarea {
+  width: 100%;
+  height: 135px;
+  margin-top: 28px;
+  padding: 16px;
+  box-sizing: border-box;
+  resize: none;
+  border: 1px solid #d6e0dc;
+  border-radius: 9px;
+  font-family: Arial, sans-serif;
+}
+
+.resultado-riesgo {
+  margin-top: 35px;
+  padding: 25px 20px;
+  color: #087553;
+  background-color: #ccecdf;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.div-criterios p {
+  margin-top: 24px;
+  padding: 20px;
+  color: #3c4945;
+  background-color: #f4f8f6;
+  border: 1px solid #d6e0dc;
+  border-radius: 8px;
+  font-weight: bold;
+}

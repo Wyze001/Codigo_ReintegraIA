@@ -12,6 +12,10 @@ evidencias/edge-profile-*/
 # Dependency folders
 node_modules/
 
+# IDE and local delivery artifacts
+.idea/
+entrega/
+
 # Legacy root prototype files kept locally but not published
 /configuracion.html
 /evaluacion.html

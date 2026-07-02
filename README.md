@@ -7,10 +7,9 @@ Este repositorio contiene el avance de implementacion de la landing page del pro
 ## Autores
 
 - Equipo ReintegraIA
-- Integrante 1: pendiente de completar
-- Integrante 2: pendiente de completar
-- Integrante 3: pendiente de completar
-- Integrante 4: pendiente de completar
+- Vasquez Olivares, Joaquin Orlando - u202422993
+- Chipana Aguirre, Aarón Sebastián - u20241G397
+- Dominguez Ocaña, Renzo Luis - u20171c700
 
 ## Segmentos objetivo
 
@@ -49,9 +48,9 @@ README.md
 - JavaScript
 - Google Fonts
 
-## Flujo Git sugerido
+## Flujo Git
 
-El proyecto debe publicarse en GitHub y organizarse con GitFlow:
+El proyecto se publico en GitHub y se organizo con GitFlow:
 
 - `main`: rama estable de entrega.
 - `develop`: rama principal de integracion.
